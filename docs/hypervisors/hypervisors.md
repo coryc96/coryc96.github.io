@@ -1,4 +1,0 @@
-# Hypervisors
-## Baremetal
-## ProxMox
-## Harvester

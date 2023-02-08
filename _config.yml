@@ -30,17 +30,12 @@ github_username:  coryc96
 # Build settings
 # theme: minima
 
-remote_theme: just-the-docs
+theme: just-the-docs
 
-#remote_theme: carlosperate/jekyll-theme-rtd
 
 ### THEME SETTINGS
 
-#site_author: Cory Chambers
-#repo_url: 'https://github.com/coryc96/coryc96.github.io/'
-#edit_on_github: true
-#sticky_navigation: true
-#search_enabled: true
+color_scheme: dark
 
 
 # Exclude from processing.
