@@ -26,9 +26,24 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  coryc96
 
+
 # Build settings
 # theme: minima
 remote_theme: carlosperate/jekyll-theme-rtd
+
+### THEME SETTINGS
+
+site_author: Cory Chambers
+repo_url: 'https://github.com/coryc96/coryc96.github.io/'
+edit_on_github: true
+sticky_navigation: true
+prev_next_buttons_location: None
+prev_next_buttons_location: top
+prev_next_buttons_location: bottom
+prev_next_buttons_location: both
+search_enabled: true
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
