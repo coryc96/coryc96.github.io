@@ -30,7 +30,7 @@ github_username:  coryc96
 # Build settings
 # theme: minima
 
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
 
 
 ### THEME SETTINGS
