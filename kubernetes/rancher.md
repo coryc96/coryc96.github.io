@@ -1,7 +1,7 @@
 ---
 layout: default
-title: NixOS
+title: Rancher 
+parent: Kubernetes
 nav_order: 3
-has_children: true
 ---
 

@@ -6,67 +6,88 @@
     
     "relUrl": "/hypervisors/baremetal.html"
   },"1": {
+    "doc": "Configuration",
+    "title": "Configuration",
+    "content": "Lorem Ipsum . ",
+    "url": "/nixos/configuration.html",
+    
+    "relUrl": "/nixos/configuration.html"
+  },"2": {
+    "doc": "Harvester",
+    "title": "Harvester",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum laoreet enim. Aenean libero nunc, efficitur quis orci id, mattis pellentesque lorem. Nullam cursus, nisi eget interdum eleifend, erat sapien lobortis nunc, at tempus ipsum elit vel enim. Phasellus a sem nec lectus tincidunt aliquet. In hac habitasse platea dictumst. Quisque id venenatis mi. Etiam gravida dui imperdiet accumsan malesuada. Fusce vitae pretium tellus. Etiam ac auctor lacus. Duis hendrerit sollicitudin dui sed luctus. Mauris dignissim sit amet neque id laoreet. Maecenas lobortis, mauris in tincidunt faucibus, neque sapien lacinia tellus, vel maximus lectus ipsum interdum neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur faucibus sit amet mauris auctor convallis. Fusce a velit lobortis, bibendum felis non, tempor dolor. Morbi id felis eget quam blandit bibendum. Sed accumsan commodo fermentum. Morbi orci ipsum, varius ac nulla ac, vehicula egestas odio. Sed tristique, quam eu tempus porttitor, dui lacus eleifend enim, at scelerisque massa magna in purus. Vestibulum sed dignissim tellus, non rhoncus quam. Sed nulla augue, ornare sed ante vel, viverra porttitor nibh. Donec vitae metus at mauris iaculis iaculis. Nulla facilisi. Curabitur dui neque, semper a purus non, eleifend ultrices orci. Nunc auctor sapien sed libero condimentum, et rutrum lectus varius. Donec hendrerit turpis mi, at malesuada ante tempor ut. Aliquam id orci mattis, commodo leo non, tempor diam. Sed vel aliquam diam. Cras volutpat ac ante sit amet feugiat. Cras porta tempus urna, a viverra neque tempor non. Nullam finibus faucibus libero, quis pulvinar tortor posuere ac. Morbi eget arcu non quam rhoncus scelerisque sit amet at ipsum. Suspendisse ut ipsum ullamcorper, faucibus leo vitae, euismod ligula. Mauris feugiat eros vel odio sodales malesuada. Cras quis elementum lacus. Donec a magna et massa porttitor cursus quis nec massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas dapibus nisi vitae pretium. Aliquam ac dui lacinia ex tristique finibus vel quis nulla. Ut pharetra, diam vitae lobortis fringilla, felis quam laoreet ipsum, id finibus nisi augue eu enim. Donec pharetra turpis eget mauris volutpat volutpat. Cras in dictum elit, vitae fermentum leo. Nunc non volutpat est, nec mattis leo. Proin fermentum posuere hendrerit. Phasellus quis turpis tempus, cursus libero sed, consequat elit. ",
+    "url": "/hypervisors/harvester.html",
+    
+    "relUrl": "/hypervisors/harvester.html"
+  },"3": {
+    "doc": "Home-Manager",
+    "title": "Home-Manager",
+    "content": "Lorem ipsum . ",
+    "url": "/nixos/home-manager.html",
+    
+    "relUrl": "/nixos/home-manager.html"
+  },"4": {
     "doc": "Hypervisors",
     "title": "Hypervisors",
     "content": " ",
-    "url": "/hypervisors/",
+    "url": "/hypervisors/hypervisors.html",
     
-    "relUrl": "/hypervisors/"
-  },"2": {
+    "relUrl": "/hypervisors/hypervisors.html"
+  },"5": {
     "doc": "ChambersLab Documenation",
     "title": "ChambersLab Documentation",
     "content": "Welcome to my personal RTD . ",
     "url": "/#chamberslab-documentation",
     
     "relUrl": "/#chamberslab-documentation"
-  },"3": {
+  },"6": {
     "doc": "ChambersLab Documenation",
     "title": "ChambersLab Documenation",
     "content": " ",
     "url": "/",
     
     "relUrl": "/"
-  },"4": {
-    "doc": "Documentation",
-    "title": "Documentation",
-    "content": "# Documentation ",
-    "url": "/docs/docs.html",
+  },"7": {
+    "doc": "K3s",
+    "title": "K3s",
+    "content": "Why K3s? . I have chosen K3s for the majority of my Kubernetes needs. Not only do I see it getting documented the most frequently, but it’s absurdly easy to set up in HA. It’s also suitable as a base for either manually mangaged K8s or for underneath Rancher. Installation . In this example we’re assuming 3 nodes with the purpose of being a manually managed Kubernetes cluster. On your first node (doesn’t necessarily have to be your “master” node, I just choose the one with the lowest hostname index), run the following command. curl -sfL https://get.k3s.io | K3S_TOKEN=$YOUR_SECRET sh -s - server --cluster-init . On the second and third nodes, run the following command (with the same $YOUR_SECRET as the first command we ran). curl -sfL https://get.k3s.io | K3S_TOKEN=$YOUR_Secret sh -s - server --server https://&lt;ip or hostname of server1&gt;:6443 . If you need to install a specific version of K3s (ie, for Rancher), you can add in the flag: INSTALL_K3S_VERSION=$K3S_VERSION Check the Rancher version matrix to see what type of Kubernetes is necessary. At the time of writing, Rancher v2.7.1 requires &lt; v1.25. An example would be. curl -sfL https://get.k3s.io | K3S_TOKEN=$YOUR_Secret INSTALL_K3S_VERSION=v1.24.10+k3s1 sh -s - server --server https://&lt;ip or hostname of server1&gt;:6443 . You can retrieve the KubeConfig from /etc/rancher/k3s/k3s.yaml and test your cluster with kubectl get nodes. ",
+    "url": "/kubernetes/k3s.html",
     
-    "relUrl": "/docs/docs.html"
-  },"5": {
+    "relUrl": "/kubernetes/k3s.html"
+  },"8": {
     "doc": "Kubernetes",
     "title": "Kubernetes",
-    "content": "# Kubernetes ## K3s ## Rancher ### Best Practice ",
-    "url": "/docs/kubernetes/kubernetes.html",
+    "content": " ",
+    "url": "/kubernetes/kubernetes.html",
     
-    "relUrl": "/docs/kubernetes/kubernetes.html"
-  },"6": {
+    "relUrl": "/kubernetes/kubernetes.html"
+  },"9": {
     "doc": "NixOS",
     "title": "NixOS",
-    "content": "# NixOS ## Configuration ## Home-Manager ",
-    "url": "/docs/nixos/nixos.html",
+    "content": " ",
+    "url": "/nixos/nixos.html",
     
-    "relUrl": "/docs/nixos/nixos.html"
-  },"7": {
-    "doc": "Terraform",
-    "title": "Terraform",
-    "content": "# Terraform ## ProxMox ## Kubernetes ",
-    "url": "/docs/terraform/terraform.html",
-    
-    "relUrl": "/docs/terraform/terraform.html"
-  },"8": {
-    "doc": "Harvester",
-    "title": "Harvester",
-    "content": "# Harvester Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum laoreet enim. Aenean libero nunc, efficitur quis orci id, mattis pellentesque lorem. Nullam cursus, nisi eget interdum eleifend, erat sapien lobortis nunc, at tempus ipsum elit vel enim. Phasellus a sem nec lectus tincidunt aliquet. In hac habitasse platea dictumst. Quisque id venenatis mi. Etiam gravida dui imperdiet accumsan malesuada. Fusce vitae pretium tellus. Etiam ac auctor lacus. Duis hendrerit sollicitudin dui sed luctus. Mauris dignissim sit amet neque id laoreet. Maecenas lobortis, mauris in tincidunt faucibus, neque sapien lacinia tellus, vel maximus lectus ipsum interdum neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur faucibus sit amet mauris auctor convallis. Fusce a velit lobortis, bibendum felis non, tempor dolor. Morbi id felis eget quam blandit bibendum. Sed accumsan commodo fermentum. Morbi orci ipsum, varius ac nulla ac, vehicula egestas odio. Sed tristique, quam eu tempus porttitor, dui lacus eleifend enim, at scelerisque massa magna in purus. Vestibulum sed dignissim tellus, non rhoncus quam. Sed nulla augue, ornare sed ante vel, viverra porttitor nibh. Donec vitae metus at mauris iaculis iaculis. Nulla facilisi. Curabitur dui neque, semper a purus non, eleifend ultrices orci. Nunc auctor sapien sed libero condimentum, et rutrum lectus varius. Donec hendrerit turpis mi, at malesuada ante tempor ut. Aliquam id orci mattis, commodo leo non, tempor diam. Sed vel aliquam diam. Cras volutpat ac ante sit amet feugiat. Cras porta tempus urna, a viverra neque tempor non. Nullam finibus faucibus libero, quis pulvinar tortor posuere ac. Morbi eget arcu non quam rhoncus scelerisque sit amet at ipsum. Suspendisse ut ipsum ullamcorper, faucibus leo vitae, euismod ligula. Mauris feugiat eros vel odio sodales malesuada. Cras quis elementum lacus. Donec a magna et massa porttitor cursus quis nec massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas dapibus nisi vitae pretium. Aliquam ac dui lacinia ex tristique finibus vel quis nulla. Ut pharetra, diam vitae lobortis fringilla, felis quam laoreet ipsum, id finibus nisi augue eu enim. Donec pharetra turpis eget mauris volutpat volutpat. Cras in dictum elit, vitae fermentum leo. Nunc non volutpat est, nec mattis leo. Proin fermentum posuere hendrerit. Phasellus quis turpis tempus, cursus libero sed, consequat elit. ",
-    "url": "/hypervisors/harvester.html",
-    
-    "relUrl": "/hypervisors/harvester.html"
-  },"9": {
+    "relUrl": "/nixos/nixos.html"
+  },"10": {
     "doc": "ProxMox",
     "title": "ProxMox",
-    "content": "# ProxMox Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum laoreet enim. Aenean libero nunc, efficitur quis orci id, mattis pellentesque lorem. Nullam cursus, nisi eget interdum eleifend, erat sapien lobortis nunc, at tempus ipsum elit vel enim. Phasellus a sem nec lectus tincidunt aliquet. In hac habitasse platea dictumst. Quisque id venenatis mi. Etiam gravida dui imperdiet accumsan malesuada. Fusce vitae pretium tellus. Etiam ac auctor lacus. Duis hendrerit sollicitudin dui sed luctus. Mauris dignissim sit amet neque id laoreet. Maecenas lobortis, mauris in tincidunt faucibus, neque sapien lacinia tellus, vel maximus lectus ipsum interdum neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur faucibus sit amet mauris auctor convallis. Fusce a velit lobortis, bibendum felis non, tempor dolor. Morbi id felis eget quam blandit bibendum. Sed accumsan commodo fermentum. Morbi orci ipsum, varius ac nulla ac, vehicula egestas odio. Sed tristique, quam eu tempus porttitor, dui lacus eleifend enim, at scelerisque massa magna in purus. Vestibulum sed dignissim tellus, non rhoncus quam. Sed nulla augue, ornare sed ante vel, viverra porttitor nibh. Donec vitae metus at mauris iaculis iaculis. Nulla facilisi. Curabitur dui neque, semper a purus non, eleifend ultrices orci. Nunc auctor sapien sed libero condimentum, et rutrum lectus varius. Donec hendrerit turpis mi, at malesuada ante tempor ut. Aliquam id orci mattis, commodo leo non, tempor diam. Sed vel aliquam diam. Cras volutpat ac ante sit amet feugiat. Cras porta tempus urna, a viverra neque tempor non. Nullam finibus faucibus libero, quis pulvinar tortor posuere ac. Morbi eget arcu non quam rhoncus scelerisque sit amet at ipsum. Suspendisse ut ipsum ullamcorper, faucibus leo vitae, euismod ligula. Mauris feugiat eros vel odio sodales malesuada. Cras quis elementum lacus. Donec a magna et massa porttitor cursus quis nec massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas dapibus nisi vitae pretium. Aliquam ac dui lacinia ex tristique finibus vel quis nulla. Ut pharetra, diam vitae lobortis fringilla, felis quam laoreet ipsum, id finibus nisi augue eu enim. Donec pharetra turpis eget mauris volutpat volutpat. Cras in dictum elit, vitae fermentum leo. Nunc non volutpat est, nec mattis leo. Proin fermentum posuere hendrerit. Phasellus quis turpis tempus, cursus libero sed, consequat elit. ",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum laoreet enim. Aenean libero nunc, efficitur quis orci id, mattis pellentesque lorem. Nullam cursus, nisi eget interdum eleifend, erat sapien lobortis nunc, at tempus ipsum elit vel enim. Phasellus a sem nec lectus tincidunt aliquet. In hac habitasse platea dictumst. Quisque id venenatis mi. Etiam gravida dui imperdiet accumsan malesuada. Fusce vitae pretium tellus. Etiam ac auctor lacus. Duis hendrerit sollicitudin dui sed luctus. Mauris dignissim sit amet neque id laoreet. Maecenas lobortis, mauris in tincidunt faucibus, neque sapien lacinia tellus, vel maximus lectus ipsum interdum neque. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur faucibus sit amet mauris auctor convallis. Fusce a velit lobortis, bibendum felis non, tempor dolor. Morbi id felis eget quam blandit bibendum. Sed accumsan commodo fermentum. Morbi orci ipsum, varius ac nulla ac, vehicula egestas odio. Sed tristique, quam eu tempus porttitor, dui lacus eleifend enim, at scelerisque massa magna in purus. Vestibulum sed dignissim tellus, non rhoncus quam. Sed nulla augue, ornare sed ante vel, viverra porttitor nibh. Donec vitae metus at mauris iaculis iaculis. Nulla facilisi. Curabitur dui neque, semper a purus non, eleifend ultrices orci. Nunc auctor sapien sed libero condimentum, et rutrum lectus varius. Donec hendrerit turpis mi, at malesuada ante tempor ut. Aliquam id orci mattis, commodo leo non, tempor diam. Sed vel aliquam diam. Cras volutpat ac ante sit amet feugiat. Cras porta tempus urna, a viverra neque tempor non. Nullam finibus faucibus libero, quis pulvinar tortor posuere ac. Morbi eget arcu non quam rhoncus scelerisque sit amet at ipsum. Suspendisse ut ipsum ullamcorper, faucibus leo vitae, euismod ligula. Mauris feugiat eros vel odio sodales malesuada. Cras quis elementum lacus. Donec a magna et massa porttitor cursus quis nec massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi egestas dapibus nisi vitae pretium. Aliquam ac dui lacinia ex tristique finibus vel quis nulla. Ut pharetra, diam vitae lobortis fringilla, felis quam laoreet ipsum, id finibus nisi augue eu enim. Donec pharetra turpis eget mauris volutpat volutpat. Cras in dictum elit, vitae fermentum leo. Nunc non volutpat est, nec mattis leo. Proin fermentum posuere hendrerit. Phasellus quis turpis tempus, cursus libero sed, consequat elit. ",
     "url": "/hypervisors/proxmox.html",
     
     "relUrl": "/hypervisors/proxmox.html"
+  },"11": {
+    "doc": "Rancher",
+    "title": "Rancher",
+    "content": " ",
+    "url": "/kubernetes/rancher.html",
+    
+    "relUrl": "/kubernetes/rancher.html"
+  },"12": {
+    "doc": "Terraform",
+    "title": "Terraform",
+    "content": " ",
+    "url": "/terraform/terraform.html",
+    
+    "relUrl": "/terraform/terraform.html"
   }
 }
