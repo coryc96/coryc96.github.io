@@ -37,10 +37,6 @@ site_author: Cory Chambers
 repo_url: 'https://github.com/coryc96/coryc96.github.io/'
 edit_on_github: true
 sticky_navigation: true
-prev_next_buttons_location: None
-prev_next_buttons_location: top
-prev_next_buttons_location: bottom
-prev_next_buttons_location: both
 search_enabled: true
 
 
