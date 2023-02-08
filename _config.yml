@@ -29,13 +29,6 @@ github_username:  coryc96
 # Build settings
 # theme: minima
 remote_theme: carlosperate/jekyll-theme-rtd
-plugins:
-  - jekyll-feed
-
-collections:
-  hypervisors:
-    output: true
-    sort_by: title
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
