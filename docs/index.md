@@ -1,4 +1,0 @@
-#Hypervisors
-##Proxmox
-##Baremetal
-
